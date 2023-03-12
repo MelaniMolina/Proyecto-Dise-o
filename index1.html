@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye1.css">
+    <script src="https://kit.fontawesome.com/c1d496df29.js" crossorigin="anonymous"></script>
+    <title>Nuestro Personal</title>
+    <style>
+      body{
+        background-image: url("img1/Iconos1.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 50% auto;
+        background-color: rgba(255, 255, 255, 0.5);
+        
+        /*height: 690px;*/
+          height: 720px;    
+                
+      }
+    </style>
+</head>
+<body>
+  
+    <div class="menu_botones">
+        <a href="#"><i class="btn fa-solid fa-house"></i>Inicio</a>
+        <a href="#"><i class="btn fa-solid fa-users"></i>Nosotros</a>
+        <a href="#"><i class="btn fa-solid fa-tags"></i>Servicios</a>
+        <a href="#"><i class="btn fa-solid fa-calendar-plus"></i>Agendar cita</a>
+        <a href="#"><i class="btn fa-solid fa-mobile"></i>Contactos</a>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img src="img1\gloria.jpg ">
+            <p>Gloria</p>
+          </div>
+          <div class="description-container">
+            <p>Cepillados <br> Masajes DML <br> Cortes de pelo <br>Masajes relajantes <br> Depilacion </p>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img src="img1\Paula.jpg">
+            <p>Paula</p>
+          </div>
+          <div class="description-container">
+            <p>Manicura <br> Pedicura <br> Limpieza facil <br> Depilacion </p>
+          </div>
+        </div>
+      </div>
+
+<!--Primera Tabla-->
+      <div class="tabla-container">
+        <div class="table-container">
+          <table>
+            <div><h3>Agenda una cita</h3></div>  
+            <div class="description-container">
+              <div class="column-container">
+                <tr>
+                  <div class="column">
+                    <p>Nombre</p>
+                    <from>
+                    <input class="campo" type="text" placeholder="Nombre completo">
+                    </from>
+                  </div>              
+                </tr>
+      
+                <tr>
+                  <div class="column">
+                    <p>CI</p>
+                    <input  class="campo" type="text" placeholder="Número de CI">
+                  </div>
+                </tr>
+      
+                <tr>
+                  <div class="column">
+                    <p>Correo</p>
+                    <input class="campo" type="email" placeholder="Correo electrónico">
+                  </div>
+                </tr> 
+      
+                <tr>
+                  <div class="column">
+                    <p>Teléfono</p>
+                    <input class="campo" type="tel" placeholder="Teléfono de contacto">
+                  </div>
+                </tr>
+      
+                <tr>
+                  <div class="column">
+                    <p>Servicio</p>
+                    <select>
+                      <option value="">Seleccionar servicio</option>
+                      <option value="Cepillados">Cepillados</option>
+                      <option value="Masajes DML">Masajes DML</option>
+                      <option value="Cortes de pelo">Cortes de pelo</option>
+                      <option value="Masajes relajantes">Masajes relajantes</option>
+                      <option value="Depilación">Depilación</option>
+                    </select>
+                  </div>
+                </tr>
+              </div>
+            </div>
+          </table>
+        </div>
+       <!--Segunda tabla-->
+        <div class="table-container column-container1">
+          <table>
+            <div class="column-container1">
+              <tr>
+                <div class="column">
+                  <p>Fecha</p>
+                  <input class="campo" type="date">
+                </div>
+              </tr>
+      
+              <tr>
+                <div class="column">
+                  <p>Hora</p>
+                  <input class="campo" type="time">
+                </div>
+              </tr>
+      
+              <tr>
+                <div class="column">
+                  <button>Agendar cita</button>
+                </div>
+              </tr>      
+            </div>
+          </table>
+        </div>
+      </div>
+       <!--Imgaenes fondo-->
+       <div class="imge">
+        
+      </div>
+</body>
+</html>
